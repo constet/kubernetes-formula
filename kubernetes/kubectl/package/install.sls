@@ -8,3 +8,4 @@
 k8s-kubectl-package-install-pkg-installed:
   pkg.installed:
     - name: {{ k8s.kubectl.pkg.name }}
+    - version: {{ k8s.kubectl.pkg.version }}
